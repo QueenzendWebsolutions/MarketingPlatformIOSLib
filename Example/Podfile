@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MarketingPlatformIOS_Example' do
+  pod 'MarketingPlatformIOS', :path => '../'
+
+  target 'MarketingPlatformIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
