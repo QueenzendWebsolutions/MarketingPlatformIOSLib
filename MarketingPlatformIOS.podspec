@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MarketingPlatformIOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MarketingPlatformIOS.'
+  s.summary          = 'A short description of MarketingPlatformIOS This project will add a done button on your TextField and TextView and move the UIView upwards if needed.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This project will add a done button on your TextField and TextView. Just turn on the accessory from storyboard for the TextField or TextView you want it to work. This project will also move the view upwards if the textfield is at a location that could hide behind the keyboard, just import the library and call RGDoneKeyboard on self in ViewDidLoad of the ViewController you want it to work.'
                        DESC
 
   s.homepage         = 'https://github.com/QueenzendWebSolutions/MarketingPlatformIOS'
@@ -26,17 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'QueenzendWebSolutions' => '“queenkumar007@gmail.com”' }
   s.source           = { :git => 'https://github.com/QueenzendWebSolutions/MarketingPlatformIOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'MarketingPlatformIOS/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MarketingPlatformIOS' => ['MarketingPlatformIOS/Assets/*.png']
-  # }
+      s.ios.deployment_target = '13.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+       s.source_files = 'Classes/**/*.swift'
+       
+       s.swift_version = '5.0'
+       
+       s.platforms = {
+           "ios": "13.0"
+       }
+   
 end
