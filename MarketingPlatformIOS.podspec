@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 'This project will add a done button on your TextField and TextView. Just turn on the accessory from storyboard for the TextField or TextView you want it to work. This project will also move the view upwards if the textfield is at a location that could hide behind the keyboard, just import the library and call RGDoneKeyboard on self in ViewDidLoad of the ViewController you want it to work.'
                        DESC
 
-  s.homepage         = 'https://github.com/QueenzendWebSolutions/MarketingPlatformIOS'
+  s.homepage         = 'https://github.com/QueenzendWebSolutions/MarketingPlatformIOSLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'QueenzendWebSolutions' => '“queenkumar007@gmail.com”' }
-  s.source           = { :git => 'https://github.com/QueenzendWebSolutions/MarketingPlatformIOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/QueenzendWebSolutions/MarketingPlatformIOSLib.git', :tag => s.version.to_s }
   
       s.ios.deployment_target = '13.0'
 
