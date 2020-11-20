@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MarketingPlatformIOS'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This project will add a done button on your TextField and TextView and move the UIView upwards if needed.'
 
 # This description is used to generate tags and improve search results.
